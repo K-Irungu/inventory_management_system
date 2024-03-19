@@ -1,12 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900&family=Chivo:ital,wght@0,100..900;1,100..900&family=Rubik+Glitch+Pop&display=swap');
 
-*{
+*,
+*::after,
+*::before
+{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+
 }
 body{
   height: 100vh;
   scroll-behavior: smooth;
   font-family: 'Chivo Mono', monospace;
+  background: radial-gradient(circle at 50% 100%, #0c2440e2, #0C2440 50%);  
+  padding-inline: 20vh;
+  padding-block: 1vh;
 }
