@@ -1,0 +1,76 @@
+.nav {
+    height: 10vh;
+    border-bottom: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #242424;
+}
+
+.logo {
+    height: 5vh;
+    width: auto;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 2vh;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-left: 10vh;
+    font-size: 18px;
+    letter-spacing: 0.3em;
+}
+
+.nav_menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 7em;
+}
+
+
+.navlink {
+    text-decoration: none;
+    cursor: pointer;
+    color: #FFFFFF;
+    position: relative;
+    padding: 8px;
+}
+
+.navlink:hover{
+    color: #ffffffc1;
+}
+
+.navlink:hover::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    /* Match link width */
+    height: 1.2px;
+    /* Line thickness */
+    background-color: #ffffffc1;
+    /* Line color */
+    left: 0;
+    bottom: 0;
+    opacity: 1;
+    /* Remember to include code to have the line appear smoothly */
+}
+
+.btn{
+    font-family: 'Chivo Mono', monospace;
+    padding-inline: 20px;
+    padding-block: 8px;
+    margin-right: 10vh;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #ffffffc1;
+}
+
+.btn:hover{
+    color:rgb(0, 0, 0);
+    background-color: #FFFFFF;
+}
