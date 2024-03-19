@@ -64,10 +64,11 @@
     padding-block: 8px;
     margin-right: 10vh;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 16px;
     border-radius: 5px;
     border-style: none;
     background-color: #ffffffc1;
+    letter-spacing: 0em;
 }
 
 .btn:hover{
