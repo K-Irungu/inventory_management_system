@@ -12,8 +12,8 @@ const About = () => {
       {/* Section with text */}
       <div className="about_text">
         <h1 className='about_title'>We design digital products</h1>
-        <div className="line">---------------</div>
-        <p className='about_subtitle'>Your brand, your productYour brand, your productYour brand, your productYour brand, your product, your big idea. We believe in creating opportunities for elite brands, intrepid startups and passionate innovators to change the world.</p>
+        <div className="line"> </div>
+        <h7 className='about_subtitle'>Your brand, your productYour brand, your productYour brand, your productYour brand, your product, your big idea. We believe in creating opportunities for elite brands, intrepid startups and passionate innovators to change the world.</h7>
       </div>
 
       {/* Section with visuals */}
