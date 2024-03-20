@@ -5,7 +5,7 @@
 
   }
 
-p{
+.subtitle{
   color: #FFFFFF;
   font-size: 20px;
   font-weight: 150;
@@ -13,7 +13,7 @@ p{
   line-height: 26px;
 
  }
-h1{
+.title{
   color: #FFFFFF;
   font-size: 50px;
   text-align: justify;
